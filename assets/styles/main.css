@@ -38,6 +38,13 @@ body
     color: #d4ac0d;
 }
 
+#about
+{
+    text-align: justify;
+
+    width: 50%;
+}
+
 #collaterals
 {
     align-items: center;
