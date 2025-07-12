@@ -1,0 +1,169 @@
+body
+{
+    background-color: #f4f6f7;
+}
+
+#web-title
+{
+    border-bottom: 1px solid #abb2b9;
+}
+
+.web-title-text
+{
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    text-align: center;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-menu .nav-item
+{
+    list-style-type: none;
+    display: inline-block;
+
+    margin: 1rem;
+}
+
+.nav-item a
+{
+    text-decoration: none;
+    color: #f1c40f;
+    font-weight: bold;
+}
+
+.nav-item a:hover
+{
+    color: #d4ac0d;
+}
+
+#collaterals
+{
+    align-items: center;
+}
+
+#collaterals img
+{
+    width: 600px;
+    height: 700px;
+
+    margin-bottom: 2rem;
+}
+
+#graphicdesigns div img
+{
+    width: 500px;
+    height: 700px;
+
+    margin: 2rem;
+}
+
+#photography #film-photography img
+{
+    width: 600px;
+    height: 400px;
+
+    margin-bottom: 2rem;
+}
+
+#photography #landscapes img
+{
+    width: 600px;
+    height: 400px;
+
+    margin-bottom: 2rem;
+}
+
+#photography #portraits img
+{
+    width: 600px;
+    height: 800px;
+
+    margin-bottom: 2rem;
+}
+
+#photography #others img
+{
+    width: 600px;
+    height: 400px;
+
+    margin-bottom: 2rem;
+}
+
+#videos iframe
+{
+    width: 600px;
+    height: 400px;
+
+    margin-bottom: 2rem;
+    border: none;
+}
+
+/*-------------------------------------------------------------------
+                MEDIA QUERIES (RESPONSIVE DESIGN)
+---------------------------------------------------------------------*/
+@media (max-width: 768px)
+{
+    #collaterals img,
+    #photography #film-photography img,
+    #photography #landscapes img,
+    #photography #portraits img,
+    #photography #others img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    #graphicdesigns div img
+    {
+        width: 600px;
+        height: auto;
+    }
+
+    #videos iframe
+    {
+        width: 100%;
+        height: 450px;
+    }
+
+    .web-title
+    {
+        width: 100%;
+    }
+
+    .web-title-text
+    {
+        font-size: 16px;
+    }
+}
+
+@media (width: 425px)
+{
+    #collaterals img,
+    #photography #film-photography img,
+    #photography #landscapes img,
+    #photography #portraits img,
+    #photography #others img
+    {
+        width: 100%;
+        height: auto;
+    }
+
+    #graphicdesigns div img
+    {
+        width: 300px;
+        height: auto;
+    }
+
+    #videos iframe
+    {
+        width: 100%;
+        height: 300px;
+    }
+
+    .nav-menu .nav-item
+    {
+        text-align: left;
+    }
+}
